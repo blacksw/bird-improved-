@@ -1,11 +1,22 @@
 .bird{
   width:48px;
   height: 48px;
-  border:1px solid green;
   position: absolute;
 }
 .bird.red{
   background-image: url(../images/bird-red.png);
+}
+.bird.green{
+  background-image: url(../images/bird-green.png);
+}
+.bird.yellow{
+  background-image: url(../images/bird-yellow.png);
+}
+.bird.green.dying{
+  animation:die 0.5s;
+}
+.bird.yellow.dying{
+  animation:die 0.5s;
 }
 .bird.red.dying{
   animation:die 0.5s;

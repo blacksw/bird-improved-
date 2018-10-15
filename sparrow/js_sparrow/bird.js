@@ -1,10 +1,10 @@
 // COMPONENTS
 class Bird{
   // create object
-  constructor(){
+  constructor(colors){
   this.top = Math.round((500 - 50) *Math.random());
   this.left = Math.round((500 - 50)*Math.random());
-  this.color = 'red';
+  this.color = colors;
   this.speed = Math.round(Math.random()*4 +1);
     this.speed_1 = Math.round(Math.random()*4 +1)
   }
